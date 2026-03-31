@@ -13,6 +13,8 @@
 ## Documentation
 
 - [Beginner Guide](docs/BEGINNER-GUIDE.md)
+- [Beginner Modes](docs/BEGINNER-MODES.md)
+- [Benchmark Notes](docs/BENCHMARK.md)
 - [FAQ](docs/FAQ.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Showcase](docs/SHOWCASE.md)
@@ -84,6 +86,19 @@ You will be asked for:
 - permission mode
 
 ### 4. Launch a mode
+
+If you are a total beginner, start here:
+
+```bash
+npm start
+```
+
+This guided mode walks you through:
+
+- novel or screenplay
+- genre direction
+- whether to create a project folder
+- then launches the right workflow automatically
 
 Novel mode:
 

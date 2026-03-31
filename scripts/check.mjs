@@ -4,11 +4,14 @@ import path from 'node:path';
 const required = [
   'package.json',
   'bin/story-forge.js',
+  'config/starter-packs.json',
   'prompts/shared.md',
+  'prompts/beginner.md',
   'prompts/novel.md',
   'prompts/screenplay.md',
   'config/agents.json',
-  'README.md'
+  'README.md',
+  'scripts/start.mjs'
 ];
 
 const missing = required.filter(file => !fs.existsSync(path.resolve(file)));

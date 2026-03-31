@@ -13,6 +13,8 @@
 ## ドキュメント
 
 - [Beginner Guide](docs/BEGINNER-GUIDE.md)
+- [Beginner Modes](docs/BEGINNER-MODES.md)
+- [Benchmark Notes](docs/BENCHMARK.md)
 - [FAQ](docs/FAQ.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Showcase](docs/SHOWCASE.md)
@@ -71,6 +73,14 @@ npm run setup
 ```
 
 ### 4. 起動
+
+完全な初心者なら、まずはこちらです:
+
+```bash
+npm start
+```
+
+このガイドモードでは、種類・方向・プロジェクト作成の有無を順番に選ぶだけで始められます。
 
 小説モード:
 

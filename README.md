@@ -13,6 +13,8 @@
 ## 文档导航
 
 - [新手指南](docs/BEGINNER-GUIDE.md)
+- [傻瓜模式说明](docs/BEGINNER-MODES.md)
+- [对标分析](docs/BENCHMARK.md)
 - [FAQ](docs/FAQ.md)
 - [路线图](docs/ROADMAP.md)
 - [展示方向](docs/SHOWCASE.md)
@@ -84,6 +86,24 @@ npm run setup
 - 权限模式，默认是 `default`
 
 ### 4. 启动写作模式
+
+如果你是纯小白，直接用这个：
+
+```bash
+npm start
+```
+
+它会一步一步带你选：
+
+- 写小说还是剧本
+- 题材方向
+- 要不要自动创建项目文件夹
+- 然后自动进入对应模式
+
+最适合小白的双击入口：
+
+- `launch-start.command`
+- `launch-start.bat`
 
 小说模式：
 

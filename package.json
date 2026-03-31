@@ -8,6 +8,7 @@
     "node": ">=18"
   },
   "scripts": {
+    "start": "node scripts/start.mjs",
     "setup": "node scripts/setup.mjs",
     "launch": "node bin/story-forge.js",
     "novel": "node bin/story-forge.js novel",

@@ -45,6 +45,7 @@ const agentsPath = path.join(root, 'config', 'agents.json');
 const agents = fs.readFileSync(agentsPath, 'utf8');
 const mergedPromptPath = buildMergedPromptFile([
   path.join(root, 'prompts', 'shared.md'),
+  path.join(root, 'prompts', 'beginner.md'),
   promptFiles[mode.name]
 ]);
 
