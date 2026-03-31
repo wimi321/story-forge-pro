@@ -6,7 +6,19 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
 
+![Story Forge Pro Banner](assets/story-forge-banner.svg)
+
 > 面向小白用户的一键式小说 / 剧本创作工作台。安装后双击即可启动，底层由 Claude Code 驱动，但工作流、提示词、角色分工、模板、项目脚手架和文档全部针对“专业写作”重做。
+
+## 文档导航
+
+- [新手指南](docs/BEGINNER-GUIDE.md)
+- [FAQ](docs/FAQ.md)
+- [路线图](docs/ROADMAP.md)
+- [展示方向](docs/SHOWCASE.md)
+- [贡献指南](CONTRIBUTING.md)
+- [安全策略](SECURITY.md)
+- [更新日志](CHANGELOG.md)
 
 ## 它解决什么问题
 
@@ -116,6 +128,11 @@ npm run new:screenplay -- my-drama
 ```
 
 生成后会在 `workspace/` 下创建结构化写作目录。
+
+## 示例项目
+
+- [小说示例 brief](examples/novel-thriller/brief.md)
+- [短片剧本示例 logline](examples/screenplay-short/logline.md)
 
 ## 工作流设计
 

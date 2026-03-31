@@ -6,7 +6,19 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
 
+![Story Forge Pro Banner](assets/story-forge-banner.svg)
+
 > 小説と脚本のために最適化された、初心者向けのワンクリック AI ライティングスタジオです。
+
+## ドキュメント
+
+- [Beginner Guide](docs/BEGINNER-GUIDE.md)
+- [FAQ](docs/FAQ.md)
+- [Roadmap](docs/ROADMAP.md)
+- [Showcase](docs/SHOWCASE.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
+- [Changelog](CHANGELOG.md)
 
 ## 概要
 

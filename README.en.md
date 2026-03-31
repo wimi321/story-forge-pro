@@ -6,7 +6,19 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
 
+![Story Forge Pro Banner](assets/story-forge-banner.svg)
+
 > A one-click AI writing studio for beginners who want professional novel and screenplay workflows.
+
+## Documentation
+
+- [Beginner Guide](docs/BEGINNER-GUIDE.md)
+- [FAQ](docs/FAQ.md)
+- [Roadmap](docs/ROADMAP.md)
+- [Showcase](docs/SHOWCASE.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
+- [Changelog](CHANGELOG.md)
 
 ## What It Does
 
@@ -114,6 +126,11 @@ Create a screenplay workspace:
 ```bash
 npm run new:screenplay -- my-show
 ```
+
+## Examples
+
+- [Novel thriller brief](examples/novel-thriller/brief.md)
+- [Short screenplay logline](examples/screenplay-short/logline.md)
 
 ## Repo Layout
 
