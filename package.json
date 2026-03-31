@@ -1,0 +1,24 @@
+{
+  "name": "story-forge-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A beginner-friendly, one-click professional novel and screenplay writing studio powered by Claude Code.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "launch": "node bin/story-forge.js",
+    "novel": "node bin/story-forge.js novel",
+    "screenplay": "node bin/story-forge.js screenplay",
+    "outline": "node bin/story-forge.js outline",
+    "new:novel": "node scripts/create-project.mjs novel",
+    "new:screenplay": "node scripts/create-project.mjs screenplay",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.88",
+    "dotenv": "^16.6.1"
+  }
+}

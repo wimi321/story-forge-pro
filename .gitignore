@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+workspace/
+*.log
+
+# Local research / reverse-engineering artifacts are intentionally excluded
+claude-code-sourcemap_副本2/
+claude-code_副本2/
+claude-code-src_副本2/
+claude-code-main_副本2.zip
