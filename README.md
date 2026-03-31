@@ -2,6 +2,10 @@
 
 [English](README.en.md) | [简体中文](README.md) | [日本語](README.ja-JP.md)
 
+[![CI](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
+
 > 面向小白用户的一键式小说 / 剧本创作工作台。安装后双击即可启动，底层由 Claude Code 驱动，但工作流、提示词、角色分工、模板、项目脚手架和文档全部针对“专业写作”重做。
 
 ## 它解决什么问题
@@ -37,6 +41,13 @@
 - 想把 AI 从“聊天玩具”变成“创作生产力”的人
 
 ## 3 分钟上手
+
+仓库地址：
+
+```bash
+git clone https://github.com/wimi321/story-forge-pro.git
+cd story-forge-pro
+```
 
 ### 1. 安装 Node.js
 

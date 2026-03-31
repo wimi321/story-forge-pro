@@ -2,6 +2,10 @@
 
 [English](README.en.md) | [简体中文](README.md) | [日本語](README.ja-JP.md)
 
+[![CI](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
+
 > A one-click AI writing studio for beginners who want professional novel and screenplay workflows.
 
 ## What It Does
@@ -37,6 +41,13 @@ Story Forge Pro is built to help complete beginners move from idea to execution.
 - Multi-language documentation
 
 ## Quick Start
+
+Repository:
+
+```bash
+git clone https://github.com/wimi321/story-forge-pro.git
+cd story-forge-pro
+```
 
 ### 1. Install Node.js
 

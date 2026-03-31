@@ -2,6 +2,10 @@
 
 [English](README.en.md) | [简体中文](README.md) | [日本語](README.ja-JP.md)
 
+[![CI](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
+
 > 小説と脚本のために最適化された、初心者向けのワンクリック AI ライティングスタジオです。
 
 ## 概要
@@ -30,6 +34,13 @@ Story Forge Pro は Claude Code を、創作向けの実務ワークステーシ
 - 多言語 README
 
 ## クイックスタート
+
+Repository:
+
+```bash
+git clone https://github.com/wimi321/story-forge-pro.git
+cd story-forge-pro
+```
 
 ### 1. Node.js をインストール
 
