@@ -1,0 +1,63 @@
+<svg width="1440" height="980" viewBox="0 0 1440 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="980" rx="40" fill="#EBDACA"/>
+  <rect x="34" y="34" width="1372" height="912" rx="32" fill="#F6EEE4"/>
+  <rect x="74" y="74" width="270" height="832" rx="28" fill="#F4E7D7" stroke="#D9C4AF"/>
+  <rect x="102" y="104" width="214" height="170" rx="24" fill="#151311"/>
+  <text x="126" y="146" fill="#F9EFE3" font-family="Georgia, serif" font-size="18">Desktop Studio</text>
+  <text x="126" y="198" fill="#FFF7EF" font-family="Georgia, serif" font-size="34" font-weight="700">Story Forge</text>
+  <text x="126" y="236" fill="#FFF7EF" font-family="Georgia, serif" font-size="34" font-weight="700">Pro</text>
+  <text x="126" y="268" fill="#D9CBBB" font-family="Helvetica, Arial, sans-serif" font-size="16">Beginner-friendly novel and screenplay workspace</text>
+  <rect x="102" y="308" width="214" height="180" rx="24" fill="#FFF8F0" stroke="#E2D3C4"/>
+  <rect x="118" y="328" width="182" height="44" rx="14" fill="#171311"/>
+  <rect x="118" y="384" width="182" height="44" rx="14" fill="#F0E3D3"/>
+  <rect x="118" y="440" width="182" height="44" rx="14" fill="#F0E3D3"/>
+  <text x="148" y="356" fill="#FFF7EF" font-family="Helvetica, Arial, sans-serif" font-size="16">开始创作</text>
+  <text x="148" y="412" fill="#2A241F" font-family="Helvetica, Arial, sans-serif" font-size="16">基础配置</text>
+  <text x="148" y="468" fill="#2A241F" font-family="Helvetica, Arial, sans-serif" font-size="16">新手指南</text>
+  <rect x="102" y="516" width="214" height="110" rx="24" fill="#FFF8F0" stroke="#E2D3C4"/>
+  <text x="126" y="552" fill="#8A7766" font-family="Helvetica, Arial, sans-serif" font-size="13">CURRENT STATUS</text>
+  <text x="126" y="590" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">准备就绪，可以开始</text>
+
+  <text x="392" y="120" fill="#9A5C36" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="2">ONE-CLICK WRITING STUDIO</text>
+  <text x="392" y="186" fill="#171311" font-family="Georgia, serif" font-size="62" font-weight="700">点几下，就能开始写成</text>
+  <text x="392" y="250" fill="#171311" font-family="Georgia, serif" font-size="62" font-weight="700">一本书或一部剧</text>
+  <text x="392" y="304" fill="#65584D" font-family="Helvetica, Arial, sans-serif" font-size="22">选择模式、方向、项目目录，再输入一句想法，剩下的大纲、场景和第一版内容交给它带你走。</text>
+
+  <rect x="392" y="360" width="664" height="220" rx="28" fill="#FFF9F1" stroke="#E6D5C4"/>
+  <text x="424" y="410" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">1. 选择创作方向</text>
+  <rect x="424" y="438" width="108" height="44" rx="18" fill="#171311"/>
+  <rect x="544" y="438" width="108" height="44" rx="18" fill="#EFE2D2"/>
+  <rect x="664" y="438" width="108" height="44" rx="18" fill="#EFE2D2"/>
+  <text x="458" y="466" fill="#FFF7EF" font-family="Helvetica, Arial, sans-serif" font-size="16">小说</text>
+  <text x="578" y="466" fill="#201B18" font-family="Helvetica, Arial, sans-serif" font-size="16">剧本</text>
+  <text x="690" y="466" fill="#201B18" font-family="Helvetica, Arial, sans-serif" font-size="16">大纲</text>
+  <rect x="424" y="506" width="332" height="48" rx="18" fill="#FFFFFF" stroke="#DFD0C0"/>
+  <text x="448" y="536" fill="#3C332D" font-family="Helvetica, Arial, sans-serif" font-size="17">悬疑 / Suspense</text>
+  <rect x="778" y="438" width="246" height="116" rx="22" fill="#FCF3E7" stroke="#E7D2BE"/>
+  <text x="804" y="474" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700">悬疑小说 starter pack</text>
+  <text x="804" y="506" fill="#6B5C50" font-family="Helvetica, Arial, sans-serif" font-size="15">先做钩子、秘密、误导线索和主角风险，再输出可执行大纲。</text>
+
+  <rect x="1080" y="360" width="286" height="220" rx="28" fill="#2B1B16"/>
+  <text x="1114" y="410" fill="#FFF8F0" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">2. 创建项目</text>
+  <rect x="1114" y="448" width="218" height="50" rx="18" fill="#FFF8F0"/>
+  <text x="1136" y="480" fill="#5A4A3D" font-family="Helvetica, Arial, sans-serif" font-size="17">深夜证词</text>
+  <rect x="1114" y="518" width="218" height="52" rx="20" fill="#C95D34"/>
+  <text x="1164" y="551" fill="#FFF8F0" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700">创建项目骨架</text>
+
+  <rect x="392" y="612" width="974" height="264" rx="28" fill="#FFF9F1" stroke="#E6D5C4"/>
+  <text x="424" y="658" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700">3. 输入一句你的想法</text>
+  <rect x="424" y="686" width="566" height="132" rx="22" fill="#FFFFFF" stroke="#DFD0C0"/>
+  <text x="452" y="728" fill="#6B5C50" font-family="Helvetica, Arial, sans-serif" font-size="18">我想写一个适合女生看的现代悬疑爱情故事，</text>
+  <text x="452" y="760" fill="#6B5C50" font-family="Helvetica, Arial, sans-serif" font-size="18">但我不会搭人物和大纲，请一步一步带我开始。</text>
+  <rect x="424" y="836" width="170" height="52" rx="20" fill="#C95D34"/>
+  <text x="474" y="869" fill="#FFF8F0" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700">开始生成</text>
+  <rect x="620" y="836" width="170" height="52" rx="20" fill="#E9DED2"/>
+  <text x="670" y="869" fill="#2E2722" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700">停止任务</text>
+
+  <rect x="1018" y="686" width="316" height="178" rx="22" fill="#171311"/>
+  <text x="1044" y="724" fill="#F9EFE3" font-family="Helvetica, Arial, sans-serif" font-size="16">输出结果</text>
+  <text x="1044" y="764" fill="#F9EFE3" font-family="Helvetica, Arial, sans-serif" font-size="15">- 题材定位</text>
+  <text x="1044" y="794" fill="#F9EFE3" font-family="Helvetica, Arial, sans-serif" font-size="15">- 主角关系</text>
+  <text x="1044" y="824" fill="#F9EFE3" font-family="Helvetica, Arial, sans-serif" font-size="15">- 冲突系统</text>
+  <text x="1044" y="854" fill="#F9EFE3" font-family="Helvetica, Arial, sans-serif" font-size="15">- 章节大纲</text>
+</svg>

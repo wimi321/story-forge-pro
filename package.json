@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "A beginner-friendly, one-click professional novel and screenplay writing studio powered by Claude Code.",
+  "author": "wimi321",
+  "main": "app/electron/main.mjs",
   "type": "module",
   "engines": {
     "node": ">=18"
@@ -11,6 +13,11 @@
     "start": "node scripts/start.mjs",
     "setup": "node scripts/setup.mjs",
     "launch": "node bin/story-forge.js",
+    "desktop": "electron .",
+    "dist": "electron-builder",
+    "dist:mac": "electron-builder --mac",
+    "dist:win": "electron-builder --win",
+    "dist:linux": "electron-builder --linux",
     "novel": "node bin/story-forge.js novel",
     "screenplay": "node bin/story-forge.js screenplay",
     "outline": "node bin/story-forge.js outline",
@@ -21,5 +28,54 @@
   "dependencies": {
     "@anthropic-ai/claude-code": "^2.1.88",
     "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "electron": "^37.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.storyforge.pro",
+    "productName": "Story Forge Pro",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "app/**/*",
+      "assets/**/*",
+      "bin/**/*",
+      "config/**/*",
+      "docs/**/*",
+      "examples/**/*",
+      "prompts/**/*",
+      "scripts/**/*",
+      "src-core/**/*",
+      "templates/**/*",
+      "package.json",
+      "package-lock.json",
+      "README.md",
+      "LICENSE",
+      "NOTICE.md"
+    ],
+    "asar": true,
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Office"
+    }
   }
 }

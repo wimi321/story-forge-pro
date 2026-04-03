@@ -4,6 +4,11 @@ import path from 'node:path';
 const required = [
   'package.json',
   'bin/story-forge.js',
+  'app/electron/main.mjs',
+  'app/electron/preload.mjs',
+  'app/ui/index.html',
+  'app/ui/styles.css',
+  'app/ui/app.js',
   'config/starter-packs.json',
   'prompts/shared.md',
   'prompts/beginner.md',
@@ -11,7 +16,9 @@ const required = [
   'prompts/screenplay.md',
   'config/agents.json',
   'README.md',
-  'scripts/start.mjs'
+  'scripts/start.mjs',
+  'src-core/storyForgeCli.mjs',
+  'src-core/workspace.mjs'
 ];
 
 const missing = required.filter(file => !fs.existsSync(path.resolve(file)));

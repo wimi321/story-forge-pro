@@ -1,19 +1,73 @@
-# Story Forge Pro
-
-[English](README.en.md) | [简体中文](README.md) | [日本語](README.ja-JP.md)
-
-[![CI](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
-
-![Story Forge Pro Banner](assets/story-forge-banner.svg)
+<div align="center">
+  <h1>Story Forge Pro</h1>
+  <p><a href="README.en.md">English</a> | <a href="README.md">简体中文</a> | <a href="README.ja-JP.md">日本語</a></p>
+  <p>
+    <a href="https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml/badge.svg"></a>
+    <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
+    <a href="https://github.com/wimi321/story-forge-pro"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github"></a>
+  </p>
+  <img src="assets/story-forge-banner.svg" alt="Story Forge Pro Banner" width="100%" />
+</div>
 
 > 面向小白用户的一键式小说 / 剧本创作工作台。安装后双击即可启动，底层由 Claude Code 驱动，但工作流、提示词、角色分工、模板、项目脚手架和文档全部针对“专业写作”重做。
+
+## 一眼看懂
+
+| 你想要什么 | Story Forge Pro 怎么帮你 |
+|---|---|
+| 我完全不会写提示词 | 用 `npm start` 或桌面版一步步带你选 |
+| 我想写小说但不会搭结构 | 先做题材、人物、冲突、大纲，再进入正文 |
+| 我想写剧本但不会拆场 | 先做 logline、beat sheet、scene list，再写台词 |
+| 我怕 AI 只会空话 | 默认输出大纲、卡片、清单、场景，不只给空泛段落 |
+| 我不想折腾命令行 | 已有桌面版 UI，可点击配置、建项目、开始生成 |
+
+## 为什么这个项目更适合小白
+
+- 不要求你会 prompt engineering
+- 不要求你先懂小说理论或剧本术语
+- 不要求你先自己建项目结构
+- 不把“写整本书”当成第一步
+- 默认先把大任务拆成可以执行的小步骤
+
+## 和普通 AI 写作工具的区别
+
+| 维度 | 普通 AI 写作工具 | Story Forge Pro |
+|---|---|---|
+| 新手上手 | 默认你会提需求 | 默认你不会，先引导再生成 |
+| 输出形式 | 容易直接吐大段文字 | 优先给大纲、场景、角色、清单 |
+| 小说工作流 | 常常只会续写 | 从题材、人物、冲突到章节推进 |
+| 剧本工作流 | 常常缺少 beat 和场景意识 | 先做 logline、beat sheet、scene list |
+| 项目结构 | 常常是聊天记录 | 直接生成可保存的项目目录 |
+| 使用方式 | 常常偏聊天 | 同时支持 CLI 傻瓜模式和桌面版 UI |
+| 对傻瓜用户 | 说“你来决定” | 说“我来带你一步一步做” |
+
+## 现在已经能做什么
+
+- 命令行傻瓜模式：`npm start`
+- 桌面版启动：`npm run desktop`
+- 小说模式、剧本模式、大纲模式
+- 自动生成项目目录
+- 内置题材 starter packs
+- 多平台打包脚本
+- 多语言 README 和完整开源项目文档
+
+## 桌面版预览
+
+<img src="assets/desktop-preview.svg" alt="Story Forge Pro Desktop Preview" width="100%" />
+
+### 小说模式预览
+
+<img src="assets/novel-mode-preview.svg" alt="Story Forge Pro Novel Mode Preview" width="100%" />
+
+### 剧本模式预览
+
+<img src="assets/screenplay-mode-preview.svg" alt="Story Forge Pro Screenplay Mode Preview" width="100%" />
 
 ## 文档导航
 
 - [新手指南](docs/BEGINNER-GUIDE.md)
 - [傻瓜模式说明](docs/BEGINNER-MODES.md)
+- [桌面版说明](docs/DESKTOP.md)
 - [对标分析](docs/BENCHMARK.md)
 - [FAQ](docs/FAQ.md)
 - [路线图](docs/ROADMAP.md)
@@ -40,12 +94,23 @@
 ## 核心特性
 
 - 一键启动：`launch-novel.command` / `launch-screenplay.command` 双击即可跑起来
+- 桌面版 UI：模式选择、配置保存、项目创建、实时输出全部可点击
 - 小白友好：首次运行会自动进入配置向导，保存 `.env.local`
 - 专业分工：内置 `story-architect`、`character-doctor`、`dialogue-polisher`、`scene-director`、`market-editor`
 - 双模式创作：小说模式、剧本模式、纯大纲模式
 - 项目模板：快速生成小说工程、剧本工程
 - 多语言文档：中文、英文、日文 README
 - GitHub 级工程化：CI、Issue 模板、MIT License、NOTICE、规范目录结构
+
+## 使用入口
+
+| 场景 | 推荐入口 |
+|---|---|
+| 完全新手 | `npm start` |
+| 喜欢点按钮 | `npm run desktop` |
+| 直接写小说 | `npm run novel` |
+| 直接写剧本 | `npm run screenplay` |
+| 只做前期规划 | `npm run outline` |
 
 ## 适合谁
 
@@ -105,6 +170,12 @@ npm start
 - `launch-start.command`
 - `launch-start.bat`
 
+如果你想直接打开桌面应用：
+
+```bash
+npm run desktop
+```
+
 小说模式：
 
 ```bash
@@ -153,6 +224,24 @@ npm run new:screenplay -- my-drama
 
 - [小说示例 brief](examples/novel-thriller/brief.md)
 - [短片剧本示例 logline](examples/screenplay-short/logline.md)
+
+## 典型使用流程
+
+### 小说用户
+
+1. 选题材方向
+2. 自动生成项目骨架
+3. 输入一句创意
+4. 先拿到人物关系和大纲
+5. 再逐章推进正文
+
+### 剧本用户
+
+1. 选短片 / 电影 / 短剧方向
+2. 自动生成剧本项目结构
+3. 输入一句梗概
+4. 先拿到 beat sheet 和 scene list
+5. 再逐场推进内容
 
 ## 工作流设计
 
@@ -211,6 +300,36 @@ scripts/             配置向导、项目创建、检查脚本
 ```bash
 npm run check
 ```
+
+## 多平台打包
+
+桌面版启动：
+
+```bash
+npm run desktop
+```
+
+打包命令：
+
+```bash
+npm run dist
+npm run dist:mac
+npm run dist:win
+npm run dist:linux
+```
+
+本机已验证：
+
+- 桌面版可正常拉起
+- macOS 应用包已生成到 `release/mac-arm64/Story Forge Pro.app`
+
+## 适合 Star 的原因
+
+- 真正面向“小白用户”，不是假装易用
+- 同时覆盖小说和剧本工作流
+- 有桌面版，不只是命令行封装
+- 有模板、有 starter packs、有项目骨架
+- 项目结构清楚，适合继续扩展和二次开发
 
 ## 下一步可以继续做什么
 

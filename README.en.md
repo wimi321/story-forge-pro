@@ -1,19 +1,73 @@
-# Story Forge Pro
-
-[English](README.en.md) | [简体中文](README.md) | [日本語](README.ja-JP.md)
-
-[![CI](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml/badge.svg)](https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github)](https://github.com/wimi321/story-forge-pro)
-
-![Story Forge Pro Banner](assets/story-forge-banner.svg)
+<div align="center">
+  <h1>Story Forge Pro</h1>
+  <p><a href="README.en.md">English</a> | <a href="README.md">简体中文</a> | <a href="README.ja-JP.md">日本語</a></p>
+  <p>
+    <a href="https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/wimi321/story-forge-pro/actions/workflows/ci.yml/badge.svg"></a>
+    <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
+    <a href="https://github.com/wimi321/story-forge-pro"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-story--forge--pro-black?logo=github"></a>
+  </p>
+  <img src="assets/story-forge-banner.svg" alt="Story Forge Pro Banner" width="100%" />
+</div>
 
 > A one-click AI writing studio for beginners who want professional novel and screenplay workflows.
+
+## At A Glance
+
+| What you want | What Story Forge Pro does |
+|---|---|
+| I do not know prompting | Guided flow through `npm start` or the desktop app |
+| I want to write a novel | Helps with premise, characters, conflict, outline, then drafting |
+| I want to write a screenplay | Helps with logline, beat sheet, scene list, then scene writing |
+| I do not want generic AI fluff | Pushes toward outlines, cards, scenes, and revision assets |
+| I do not want terminal friction | Includes a clickable desktop UI |
+
+## Why It Fits Beginners Better
+
+- no prompt-engineering knowledge required
+- no story-theory prerequisite required
+- no manual project setup required
+- no pressure to write a whole book on turn one
+- defaults to small, usable next steps
+
+## How It Differs From Generic AI Writing Tools
+
+| Dimension | Generic AI writing tools | Story Forge Pro |
+|---|---|---|
+| Beginner onboarding | assumes the user already knows what to ask | assumes the user does not, and guides first |
+| Output style | often long blocks of text | prioritizes outlines, scenes, characters, and checklists |
+| Novel workflow | often just continues prose | builds premise, characters, conflict, and chapter flow |
+| Screenplay workflow | often weak on beats and scenes | starts with logline, beat sheet, and scene list |
+| Project structure | often just chat history | creates reusable project folders and templates |
+| Product form | often chat-only | supports guided CLI and desktop UI |
+| Beginner support | asks the user to decide everything | leads the user step by step |
+
+## What Is Already Included
+
+- guided CLI mode via `npm start`
+- desktop app launch via `npm run desktop`
+- novel, screenplay, and outline workflows
+- project scaffolding
+- genre starter packs
+- multi-platform packaging scripts
+- multi-language docs
+
+## Desktop Preview
+
+<img src="assets/desktop-preview.svg" alt="Story Forge Pro Desktop Preview" width="100%" />
+
+### Novel Mode Preview
+
+<img src="assets/novel-mode-preview.svg" alt="Story Forge Pro Novel Mode Preview" width="100%" />
+
+### Screenplay Mode Preview
+
+<img src="assets/screenplay-mode-preview.svg" alt="Story Forge Pro Screenplay Mode Preview" width="100%" />
 
 ## Documentation
 
 - [Beginner Guide](docs/BEGINNER-GUIDE.md)
 - [Beginner Modes](docs/BEGINNER-MODES.md)
+- [Desktop App](docs/DESKTOP.md)
 - [Benchmark Notes](docs/BENCHMARK.md)
 - [FAQ](docs/FAQ.md)
 - [Roadmap](docs/ROADMAP.md)
@@ -47,12 +101,23 @@ Story Forge Pro is built to help complete beginners move from idea to execution.
 ## Features
 
 - One-click launchers for macOS and Windows
+- Desktop UI for mode picking, settings, workspace creation, and live output
 - Beginner-friendly setup wizard
 - Dedicated novel, screenplay, and outline modes
 - Specialist writing agents for structure, character, dialogue, scenes, and market fit
 - Reusable project templates
 - GitHub-ready repo structure with CI and issue templates
 - Multi-language documentation
+
+## Entry Points
+
+| Situation | Best command |
+|---|---|
+| Complete beginner | `npm start` |
+| Prefer desktop UI | `npm run desktop` |
+| Go straight into novel work | `npm run novel` |
+| Go straight into screenplay work | `npm run screenplay` |
+| Planning only | `npm run outline` |
 
 ## Quick Start
 
@@ -99,6 +164,12 @@ This guided mode walks you through:
 - genre direction
 - whether to create a project folder
 - then launches the right workflow automatically
+
+If you want the desktop app directly:
+
+```bash
+npm run desktop
+```
 
 Novel mode:
 
@@ -147,6 +218,24 @@ npm run new:screenplay -- my-show
 - [Novel thriller brief](examples/novel-thriller/brief.md)
 - [Short screenplay logline](examples/screenplay-short/logline.md)
 
+## Typical Flow
+
+### For novel users
+
+1. pick a direction
+2. create a workspace
+3. write one sentence of intent
+4. get characters and outline first
+5. draft chapter by chapter
+
+### For screenplay users
+
+1. pick short film, feature, or vertical drama
+2. create a script workspace
+3. write one sentence of premise
+4. get a beat sheet and scene list
+5. draft scene by scene
+
 ## Repo Layout
 
 ```text
@@ -165,3 +254,26 @@ It is not affiliated with Anthropic.
 Any reverse-engineering or research artifacts in the local working directory are excluded from version control.
 
 See [NOTICE.md](NOTICE.md) for details.
+
+## Packaging
+
+```bash
+npm run desktop
+npm run dist
+npm run dist:mac
+npm run dist:win
+npm run dist:linux
+```
+
+Verified locally in this repository:
+
+- desktop app launch
+- macOS app bundle at `release/mac-arm64/Story Forge Pro.app`
+
+## Why It Can Become A High-Star Project
+
+- truly beginner-first, not just AI-branded
+- supports both novels and screenplays
+- includes a desktop app, not only a CLI wrapper
+- ships with templates, starter packs, and guided workflows
+- easy to extend for genre-specific writing pipelines

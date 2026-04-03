@@ -4,6 +4,9 @@ node_modules/
 .DS_Store
 workspace/
 *.log
+release/
+dist/
+.electron-builder/
 
 # Local research / reverse-engineering artifacts are intentionally excluded
 claude-code-sourcemap_副本2/

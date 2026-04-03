@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Story Forge Pro</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand-card">
+          <div class="brand-kicker">Desktop Studio</div>
+          <h1>Story Forge Pro</h1>
+          <p>给不会折腾的创作者准备的专业小说 / 剧本工作台。</p>
+        </div>
+
+        <nav class="nav-card">
+          <button class="nav-item active" data-view="workspace">开始创作</button>
+          <button class="nav-item" data-view="settings">基础配置</button>
+          <button class="nav-item" data-view="guide">新手指南</button>
+        </nav>
+
+        <div class="status-card">
+          <div class="label">当前状态</div>
+          <div id="app-status">准备就绪</div>
+        </div>
+      </aside>
+
+      <main class="main-panel">
+        <section class="hero">
+          <div>
+            <div class="eyebrow">One-click Writing Studio</div>
+            <h2>点几下，就能开始写成一本书或一部剧</h2>
+            <p>先选模式，再选方向，再输入一句你的想法。剩下的大纲、场景、结构和第一版内容，交给 Story Forge Pro 带你走。</p>
+          </div>
+          <div class="hero-pills">
+            <span>傻瓜友好</span>
+            <span>项目模板</span>
+            <span>实时输出</span>
+            <span>桌面可打包</span>
+          </div>
+        </section>
+
+        <section id="view-workspace" class="view active">
+          <div class="grid two-col">
+            <div class="panel">
+              <div class="panel-head">
+                <h3>1. 选择创作方向</h3>
+                <p>不懂专业术语也没关系，先选最接近的目标。</p>
+              </div>
+              <div class="field-group segmented" id="mode-switch">
+                <button class="segment active" data-mode="novel">小说</button>
+                <button class="segment" data-mode="screenplay">剧本</button>
+                <button class="segment" data-mode="outline">只做大纲</button>
+              </div>
+              <label class="field">
+                <span>推荐方向</span>
+                <select id="preset-select"></select>
+              </label>
+              <label class="field">
+                <span>工作目录</span>
+                <div class="inline-row">
+                  <input id="workspace-input" type="text" placeholder="先选一个目录，项目会在这里创建或运行" />
+                  <button id="choose-folder-btn" class="secondary">选择目录</button>
+                </div>
+              </label>
+              <div class="quick-cards" id="preset-hints"></div>
+            </div>
+
+            <div class="panel accent-panel">
+              <div class="panel-head">
+                <h3>2. 一键创建项目文件夹</h3>
+                <p>不会建结构也没关系，直接帮你生成。</p>
+              </div>
+              <label class="field">
+                <span>项目名</span>
+                <input id="project-name-input" type="text" placeholder="例如：深夜证词 / 校园恋爱 / 竖屏复仇短剧" />
+              </label>
+              <button id="create-project-btn" class="primary wide">创建项目骨架</button>
+              <div id="project-result" class="result-box muted">还没有创建项目。</div>
+            </div>
+          </div>
+
+          <div class="panel composer-panel">
+            <div class="panel-head">
+              <h3>3. 输入一句你的想法</h3>
+              <p>越模糊也没关系。比如：“我想写一个适合女生看的现代悬疑爱情故事”。</p>
+            </div>
+            <label class="field">
+              <span>你的需求</span>
+              <textarea id="prompt-input" rows="7" placeholder="把你脑子里的想法直接写下来。不会写也没关系，随便描述。"></textarea>
+            </label>
+            <div class="inline-row action-row">
+              <button id="run-btn" class="primary xl">开始生成</button>
+              <button id="cancel-btn" class="secondary">停止当前任务</button>
+            </div>
+          </div>
+
+          <div class="panel output-panel">
+            <div class="panel-head">
+              <h3>输出结果</h3>
+              <p>这里会实时显示生成内容与状态。</p>
+            </div>
+            <pre id="output-log" class="output-log">欢迎来到 Story Forge Pro Desktop。</pre>
+          </div>
+        </section>
+
+        <section id="view-settings" class="view">
+          <div class="panel settings-panel">
+            <div class="panel-head">
+              <h3>基础配置</h3>
+              <p>只需要填一次，以后打开就能直接用。</p>
+            </div>
+            <label class="field">
+              <span>Anthropic API Key</span>
+              <input id="api-key-input" type="password" placeholder="粘贴你的 ANTHROPIC_API_KEY" />
+            </label>
+            <div class="grid two-col compact">
+              <label class="field">
+                <span>默认模型</span>
+                <input id="model-input" type="text" placeholder="sonnet" />
+              </label>
+              <label class="field">
+                <span>权限模式</span>
+                <select id="permission-mode-select">
+                  <option value="default">default</option>
+                  <option value="acceptEdits">acceptEdits</option>
+                  <option value="plan">plan</option>
+                  <option value="dontAsk">dontAsk</option>
+                </select>
+              </label>
+            </div>
+            <button id="save-settings-btn" class="primary">保存配置</button>
+          </div>
+        </section>
+
+        <section id="view-guide" class="view">
+          <div class="grid two-col guide-grid">
+            <div class="panel guide-card">
+              <h3>最适合小白的用法</h3>
+              <ol>
+                <li>先填 API Key。</li>
+                <li>选“小说”或“剧本”。</li>
+                <li>点“创建项目骨架”。</li>
+                <li>输入一句想法，点“开始生成”。</li>
+              </ol>
+            </div>
+            <div class="panel guide-card">
+              <h3>推荐第一句</h3>
+              <p>我想写一个适合女生看的现代悬疑爱情故事，但我不会搭人物和大纲，请一步一步带我开始。</p>
+            </div>
+            <div class="panel guide-card">
+              <h3>推荐第二句</h3>
+              <p>请不要一次问我太多问题。你直接给我 3 个方向，并替我选最稳的那个继续做下去。</p>
+            </div>
+            <div class="panel guide-card">
+              <h3>推荐第三句</h3>
+              <p>先不要写正文，先把人物关系、冲突和章节大纲做清楚。</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

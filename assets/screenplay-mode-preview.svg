@@ -1,0 +1,41 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" rx="40" fill="#E8DDCF"/>
+  <rect x="30" y="30" width="1380" height="840" rx="32" fill="#FBF4EC"/>
+  <rect x="64" y="64" width="294" height="772" rx="28" fill="#F4E7D9" stroke="#DDC8B4"/>
+  <rect x="92" y="94" width="238" height="154" rx="24" fill="#171311"/>
+  <text x="118" y="136" fill="#F8EFE6" font-family="Georgia, serif" font-size="18">Screenplay Mode</text>
+  <text x="118" y="188" fill="#FFF8F0" font-family="Georgia, serif" font-size="37" font-weight="700">From logline to</text>
+  <text x="118" y="228" fill="#FFF8F0" font-family="Georgia, serif" font-size="37" font-weight="700">scene-by-scene draft</text>
+  <rect x="92" y="282" width="238" height="226" rx="24" fill="#FFF9F0" stroke="#E5D4C3"/>
+  <text x="116" y="322" fill="#7E6A59" font-family="Helvetica, Arial, sans-serif" font-size="13">STARTER PACK</text>
+  <text x="116" y="360" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="700">短片 / Short Film</text>
+  <text x="116" y="398" fill="#5F5248" font-family="Helvetica, Arial, sans-serif" font-size="16">先做 logline、反转点、核心画面和结尾冲击，再进入 beat sheet。</text>
+  <rect x="116" y="450" width="190" height="42" rx="16" fill="#171311"/>
+  <text x="164" y="476" fill="#FFF8F0" font-family="Helvetica, Arial, sans-serif" font-size="16">开始这个方向</text>
+  <rect x="388" y="64" width="988" height="166" rx="28" fill="#FFF9F0" stroke="#E4D2BE"/>
+  <text x="424" y="118" fill="#9A5F3C" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="2">SCREENWRITING ROOM FOR BEGINNERS</text>
+  <text x="424" y="176" fill="#171311" font-family="Georgia, serif" font-size="54" font-weight="700">先把一句话梗概和场景节奏做对，</text>
+  <text x="424" y="224" fill="#171311" font-family="Georgia, serif" font-size="54" font-weight="700">再去写对白和表演感</text>
+  <rect x="388" y="254" width="470" height="264" rx="28" fill="#FFF9F0" stroke="#E4D2BE"/>
+  <text x="424" y="304" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">当前输入</text>
+  <rect x="424" y="332" width="404" height="154" rx="22" fill="#FFFFFF" stroke="#E1D0BE"/>
+  <text x="452" y="372" fill="#5D5146" font-family="Helvetica, Arial, sans-serif" font-size="18">一个夜班火葬场职员在处理遗体时，</text>
+  <text x="452" y="404" fill="#5D5146" font-family="Helvetica, Arial, sans-serif" font-size="18">发现尸体口袋里的手机还在实时响铃。</text>
+  <rect x="892" y="254" width="484" height="264" rx="28" fill="#221814"/>
+  <text x="928" y="304" fill="#FFF8F0" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">立即输出</text>
+  <text x="928" y="356" fill="#F7EFE6" font-family="Helvetica, Arial, sans-serif" font-size="17">1. 一句话梗概</text>
+  <text x="928" y="392" fill="#F7EFE6" font-family="Helvetica, Arial, sans-serif" font-size="17">2. 核心冲突与反转点</text>
+  <text x="928" y="428" fill="#F7EFE6" font-family="Helvetica, Arial, sans-serif" font-size="17">3. Beat sheet</text>
+  <text x="928" y="464" fill="#F7EFE6" font-family="Helvetica, Arial, sans-serif" font-size="17">4. Scene list 与对白修订方向</text>
+  <rect x="388" y="548" width="988" height="256" rx="28" fill="#FFF9F0" stroke="#E4D2BE"/>
+  <text x="424" y="596" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">为什么它更适合第一次写剧本的人</text>
+  <rect x="424" y="626" width="286" height="136" rx="24" fill="#F7ECDF"/>
+  <rect x="738" y="626" width="286" height="136" rx="24" fill="#F7ECDF"/>
+  <rect x="1052" y="626" width="286" height="136" rx="24" fill="#F7ECDF"/>
+  <text x="448" y="666" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">先拆场再写</text>
+  <text x="448" y="704" fill="#5E5148" font-family="Helvetica, Arial, sans-serif" font-size="16">默认先做 logline、beats、scene list，不让你直接硬写整场戏。</text>
+  <text x="762" y="666" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">更有格式感</text>
+  <text x="762" y="704" fill="#5E5148" font-family="Helvetica, Arial, sans-serif" font-size="16">更强调目标、障碍、转折、对白，而不是散文式生成。</text>
+  <text x="1076" y="666" fill="#171311" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">更像编剧室</text>
+  <text x="1076" y="704" fill="#5E5148" font-family="Helvetica, Arial, sans-serif" font-size="16">适合短片、电影、短剧，从想法到场景级推进都更清楚。</text>
+</svg>
